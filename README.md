@@ -1,7 +1,7 @@
-# webpack-demo
+#webpack 多页面打包配置
 It's a config demo to  pack multi page used webpack
 
-#webpack 多页面打包配置
+
 ## 一、前期准备
 1、搭建项目框架
 
