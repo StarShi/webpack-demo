@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[function(o,n){console.log("jq")},,,function(o,n,c){"use strict";c.r(n);var e;c(1),c(0);e="hello contact",console.log(e)},function(o,n,c){"use strict";c.r(n);var e;c(2),c(0);e="hello index",console.log(e)}]]);
