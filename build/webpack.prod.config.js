@@ -31,7 +31,7 @@ let prodWebpackConfig = merge(baseWebpackConfig,{
 
 			{
 				test:/\.css$/,//处理css文件
-			    use: [MiniCssExtractPlugin.loader,'css-loader', 'postcss-loader','sass-loader'],
+			    use: [MiniCssExtractPlugin.loader,'css-loader', 'postcss-loader'],
 				include:[path.resolve(__dirname,'../src/')]
 			},
 			{
