@@ -49,7 +49,7 @@ let prodWebpackConfig = merge(baseWebpackConfig,{
 					name: "common",//提取出的模块名
 					test: /\.js/,
 					chunks: "initial",//表示显示块的范围，有三个可选值：initial(初始块)、async(按需加载块)、all(全部块)，默认为all;
-					minSize: 1,
+					minChunks: 2,
 					priority: 0
 	       		},
 			}
